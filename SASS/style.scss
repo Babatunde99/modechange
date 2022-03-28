@@ -3,7 +3,69 @@
 
 
 body{
-    background-color: $color;
-    color: #fff;
-    @include flex(center,flex-end);
-}
+    font-family: $font;
+    background-color: $color6;
+    margin-top: 200px;
+
+    .container{
+        background-color: $color5;
+        border-radius: 20px;
+        height: 320px;
+        padding-top: 30px;
+        width: 300px;
+        margin: auto;
+    }
+
+
+    .star{
+        width: 25px;
+        background-color: $color1;
+         text-align: center;
+         border-radius: 100%;
+         padding: 5px;
+         margin-left: 20px;
+         margin-right: 20px;
+    }
+    h3{
+        color: $color2;
+        font-weight: 700;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+    p{
+        color:$color3;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    }
+    .num{
+        width: 30px;
+        background-color: $color1;
+         border-radius: 100%;
+         padding: 10px;
+         color: $color2;
+         border: none;
+         margin-left: 20px;
+         justify-content: space-around;
+    }
+    .sbtHold{
+        padding-top: 20px;
+    }
+    .sbtBtn{
+        background-color: $color4;
+        color: $color2;
+        width: 240px;
+        border: none;
+        padding: 10px;
+        border-radius: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-weight: 700;
+    }
+
+
+
+    
