@@ -1,13 +1,12 @@
 @import "varible";
 @import "mixin";
 
-
-body{
+body {
     font-family: $font;
     background-color: $color6;
     margin-top: 200px;
 
-    .container{
+    .container {
         background-color: $color5;
         border-radius: 20px;
         height: 320px;
@@ -16,45 +15,45 @@ body{
         margin: auto;
     }
 
-
-    .star{
+    .star {
         width: 25px;
         background-color: $color1;
-         text-align: center;
-         border-radius: 100%;
-         padding: 5px;
-         margin-left: 20px;
-         margin-right: 20px;
+        text-align: center;
+        border-radius: 100%;
+        padding: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
-    h3{
+    h3 {
         color: $color2;
         font-weight: 700;
         margin-left: 20px;
         margin-right: 20px;
-
     }
-    p{
-        color:$color3;
+    p {
+        color: $color3;
         font-size: 15px;
         margin-left: 20px;
         margin-right: 20px;
     }
-    
-    }
-    .num{
+
+    .num {
         width: 30px;
         background-color: $color1;
-         border-radius: 100%;
-         padding: 10px;
-         color: $color2;
-         border: none;
-         margin-left: 20px;
-         justify-content: space-around;
+        border-radius: 100%;
+        padding: 10px;
+        color: $color2;
+        border: none;
+        margin-left: 20px;
+        justify-content: space-around;
     }
-    .sbtHold{
+    .num:hover {
+        background-color: $color4;
+    }
+    .sbtHold {
         padding-top: 20px;
     }
-    .sbtBtn{
+    .sbtBtn {
         background-color: $color4;
         color: $color2;
         width: 240px;
@@ -65,7 +64,8 @@ body{
         margin-right: 20px;
         font-weight: 700;
     }
-
-
-
-    
+    .sbtBtn:hover {
+        color: $color4;
+        background-color: $color2;
+    }
+}

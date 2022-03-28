@@ -37,7 +37,7 @@ body p {
   margin-right: 20px;
 }
 
-.num {
+body .num {
   width: 30px;
   background-color: #959eac;
   border-radius: 100%;
@@ -49,11 +49,15 @@ body p {
       justify-content: space-around;
 }
 
-.sbtHold {
+body .num:hover {
+  background-color: #fb7413;
+}
+
+body .sbtHold {
   padding-top: 20px;
 }
 
-.sbtBtn {
+body .sbtBtn {
   background-color: #fb7413;
   color: white;
   width: 240px;
@@ -63,5 +67,10 @@ body p {
   margin-left: 20px;
   margin-right: 20px;
   font-weight: 700;
+}
+
+body .sbtBtn:hover {
+  color: #fb7413;
+  background-color: white;
 }
 /*# sourceMappingURL=style.css.map */
