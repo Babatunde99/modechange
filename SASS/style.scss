@@ -1,0 +1,9 @@
+@import "varible";
+@import "mixin";
+
+
+body{
+    background-color: $color;
+    color: #fff;
+    @include flex(center,flex-end);
+}
