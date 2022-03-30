@@ -1,4 +1,4 @@
-@import "varible";
+@import 'varible';
 @import "mixin";
 
 body {
@@ -13,7 +13,12 @@ body {
         padding-top: 30px;
         width: 300px;
         margin: auto;
+
+        .change{
+            background-color:$color7;
+        }
     }
+    
 
     .star {
         width: 25px;
@@ -68,4 +73,5 @@ body {
         color: $color4;
         background-color: $color2;
     }
+    
 }

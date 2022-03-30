@@ -13,6 +13,10 @@ body .container {
   margin: auto;
 }
 
+body .container .change {
+  background-color: #5c2626;
+}
+
 body .star {
   width: 25px;
   background-color: #959eac;
